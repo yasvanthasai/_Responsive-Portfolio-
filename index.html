@@ -9,6 +9,7 @@
 
     <!-- =====BOX ICONS===== -->
     <link href='https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css">
 
     <title>Portfolio - Yasvantha Sai Atmuri</title>
 </head>
@@ -18,16 +19,18 @@
     <header class="l-header">
         <nav class="nav bd-grid">
             <div>
-                <a href="#" class="nav__logo">Yasvantha Sai Atmuri (AYS)</a>
+                <a href="#" class="nav__logo">Yasvantha Sai Atmuri</a>
             </div>
 
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
-                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
-                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <!-- <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li> -->
                     <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
-                    <li class="nav__item"><a href="#experience" class="nav__link">Experince</a></li>
-                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#experience" class="nav__link">Experience</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#achievements" class="nav__link">Achievements</a></li>
+                    <li class="nav__item"><a href="#recommendations" class="nav__link">Recommendations</a></li>
                 </ul>
             </div>
 
@@ -41,7 +44,7 @@
         <!--===== HOME =====-->
         <section class="home bd-grid" id="home">
             <div class="home__data">
-                <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Yasvanta Sai </span>
+                <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Yasvantha Sai </span>
                     <br> Software Developer
                 </h1>
 
@@ -49,14 +52,51 @@
             </div>
 
             <div class="home__social">
-                <a href="https://www.linkedin.com/in/yasvantha-sai-atmuri/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://www.linkedin.com/in/yasvantha-sai-atmuri/" class="home__social-icon"><i
+                        class='bx bxl-linkedin'></i></a>
                 <a href="https://github.com/yasvanthasai" class="home__social-icon"><i class='bx bxl-github'></i></a>
-                <a href="yasvanthasai@gmail.com" class="home__social-icon"><i class='bx bxl-google'></i></a>
+                <a href="mailto:yasvanthasai@gmail.com" &gt class="home__social-icon"><i class='bx bxl-google'></i></a>
             </div>
 
             <div class="home__img">
                 <img src="self.jpeg" alt="">
 
+            </div>
+        </section>
+
+        <!--===== Education =====-->
+        <section class="education section" id="education">
+            <h2 class="section-title">Education</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="csu.png" alt="">
+                </div>
+                <div>
+                    <p class="about__subtitle"><strong>CLEVELAND STATE UNIVERSITY, CLEVELAND, OH</strong></p>
+                    <p class="about__subtitle">Masters of Science, Information Systems, August 2023 - May 2025</p>
+                    <p class="about__subtitle">GPA: 3.89/4</p>
+                    <p class="about__subtitle"><strong>Honors and Activities:</strong></p>
+                    <ul>
+                        <li>Certifications: Oracle Cloud Infrastructure Foundations Associate</li>
+                        <li>Prestigious Data Analytics Competition: Secured First Place</li>
+                    </ul>
+                </div>
+            </div>
+            <BR><BR>
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="amity.jpg" alt="">
+                </div>
+                <div>
+                    <p class="about__subtitle"><strong>AMRITA UNIVERSITY, COIMBATORE, INDIA</strong></p>
+                    <p class="about__subtitle"> Bachelors in Electronics and Communications, July 2017 - May 2021</p>
+                    <p class="about__subtitle">GPA: 6.88/10</p>
+                    <p class="about__subtitle"> Completed comprehensive coursework in computer programming, data
+                        structures, and algorithms, equipping with foundational skills essential for software
+                        development roles.</p>
+
+                </div>
             </div>
         </section>
 
@@ -66,10 +106,7 @@
 
             <div class="skills__container bd-grid">
                 <div>
-                    <h2 class="skills__subtitle">Profesional Skills</h2>
-                    <p class="skills__text">Dynamic software developer and database operations professional with 12+ major deployments and a strong track record of automating
-processes to drive efficiency. Skilled in developing software solutions, code optimization, version control, and cross-functional collaboration. Recognized for enhancing project functionality through the redesign of web interfaces using various technologies. Committed to full-stack
-software development.</p>
+
                     <div class="skills__data">
                         <div class="skills__names">
                             <i class='bx bxl-html5 skills__icon'></i>
@@ -145,130 +182,424 @@ software development.</p>
                 </div>
 
                 <div>
-                    <img src="work.jpg" alt="" class="skills__img">
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bx-package skills__icon'></i>
+                            <span class="skills__name">Maven</span>
+                        </div>
+                        <div class="skills__bar skills__package">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">90%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-aws skills__icon'></i>
+                            <span class="skills__name">AWS Cloud</span>
+                        </div>
+                        <div class="skills__bar skills__aws">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">50%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bx bx-analyse skills__icon'></i>
+                            <span class="skills__name">Data Analyzing</span>
+                        </div>
+                        <div class="skills__bar skills__analyze">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">70%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx-check-shield skills__icon'></i>
+                            <span class="skills__name">JUnit</span>
+                        </div>
+                        <div class="skills__bar skills__junit">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">75%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bx-network-chart skills__icon'></i>
+                            <span class="skills__name">Microservices</span>
+                        </div>
+                        <div class="skills__bar skills__chart">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">70%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bx-shape-triangle skills__icon'></i>
+                            <span class="skills__name">Data Structures & Algorithms</span>
+                        </div>
+                        <div class="skills__bar skills__algorithm">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">70%</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <!--===== Education =====-->
-        <section class="education section" id="education">
-            <h2 class="section-title">Education</h2>
+
+
+        <!--===== EXPERIENCE =====-->
+        <section class="skills section " id="experience">
+            <h2 class="section-title">Experience</h2>
 
             <div class="about__container bd-grid">
                 <div class="about__img">
                     <img src="csu.png" alt="">
                 </div>
-                <div>
-                <p  class="about__subtitle"><strong>CLEVELAND STATE UNIVERSITY, CLEVELAND, OH</strong></p>
-        <p  class="about__subtitle">Masters of Science, Information Systems, August 2023 - May 2025</p>
-        <p  class="about__subtitle">GPA: 4/4</p>
-        <p  class="about__subtitle"><strong>Honors and Activities:</strong></p>
-        <ul>
-            <li>Certifications: Oracle Cloud Infrastructure Foundations Associate</li>
-            <li>Prestigious Data Analytics Competition: Secured First Place</li>
-        </ul>
-    </div>
-            </div>
-        </section>
-
-        <!--===== EXPERIENCE =====-->
-        <section class="experience section " id="experience">
-            <h2 class="section-title">Experience</h2>
-
-            <div class="about__container bd-grid">
-                <div class="about__img">
-                    <img src="pawsAI.jpg" alt="">
-                </div>
 
                 <div>
-                    <h2 class="about__subtitle">Paws AI (USA) - Software Engineer</h2>
+                    <h2 class="about__subtitle">Cleveland State University (Cleveland, Ohio, United States) - Front Desk
+                        Representative </h2>
+                    <p> <strong> Part-time | Feb 2024 - Present </strong></p><br>
                     <!-- <p class="about__text"> -->
-                        <ul>
-                        <li>Independently developed the entire front end of the website using Next.js, delivering dynamic, responsive user
-                            interfaces.</li>
-                        <li>Configured authentication systems and integrated a payment gateway for secure transactions.
+                    <ul>
+                        <li>Engaged with students, faculty, and visitors daily, ensuring clear and professional
+                            communication while fostering a welcoming environment.</li>
+                        <li>Assisted guests with inquiries, resolved concerns efficiently, and directed them to
+                            appropriate resources, demonstrating strong problem-solving and adaptability. </li>
+                        <li>Managed front desk operations, handled phone calls, emails, and mail distribution while
+                            maintaining an organized and efficient workspace.
                         </li>
-                        <li>Built and integrated 5 custom APIs in Google Firebase for seamless data handling and real-time updates.
+                        <li>Collaborated with university staff to coordinate visitor appointments, event logistics, and
+                            administrative tasks, ensuring smooth daily operations.
                         </li>
-                        <li>Managed backend APIs and databases using Google Firebase to ensure reliable and scalable data operations.
-                        </li>
-                        <li>Leveraged Vercel for frontend templates and deployment, optimizing overall site performance and scalability.
+                        <li>Provided clear and accurate information to guests, demonstrating patience, active listening,
+                            and a customer-focused approach to enhance the visitor experience.
                         </li>
                     </ul>
                     <br><br>
                     <!-- </p> -->
-                    <a href="#" class="button">Know More!</a>
                 </div>
-              </div>
-              <div class="about__container bd-grid">
+            </div>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="paws.jpeg" alt="">
+                </div>
+
+                <div>
+                    <h2 class="about__subtitle">Paws AI (Columbus, Ohio, United States) - Software Engineer Intern</h2>
+                    <p> <strong> Internship | May 2024 - October 2024 </strong></p><br>
+                    <!-- <p class="about__text"> -->
+                    <ul>
+                        <li>Independently developed the entire front end of the website using Next.js, delivering
+                            dynamic, responsive user
+                            interfaces.</li>
+                        <li>Configured authentication systems and integrated a payment gateway for secure transactions.
+                        </li>
+                        <li>Built and integrated 5 custom APIs in Google Firebase for seamless data handling and
+                            real-time updates.
+                        </li>
+                        <li>Managed backend APIs and databases using Google Firebase to ensure reliable and scalable
+                            data operations.
+                        </li>
+                        <li>Leveraged Vercel for frontend templates and deployment, optimizing overall site performance
+                            and scalability.
+                        </li>
+                    </ul>
+                    <br><br>
+                    <!-- </p> -->
+                </div>
+            </div>
+
+            <div class="about__container bd-grid">
                 <div class="about__img">
                     <img src="tata-consultancy-services-1.jpg" alt="">
                     <br> <br>
                     <img src="VZ.png" alt="">
 
                 </div>
-                <!-- <div class="about__img">
-                    <img src="VZ.png" alt="">
-              </div> -->
-              <div>
-                    <h2 class="about__subtitle">TATA CONSULTANCY SERVICES (INDIA) - Software Developer</h2>
+                <div>
+                    <h2 class="about__subtitle">TATA CONSULTANCY SERVICES (Hyderabad, India) - Software Developer</h2>
                     <p> <strong> Verizon, USA | July 2021 - July 2023 </strong></p><br>
                     <ul>
-                        <li>Facilitated the transition from 4G to 5G technology by developing web applications and enhancing software
-                            features with Java, ensuring compliance with federal laws and contributing to the advancement of
+                        <li>Facilitated the transition from 4G to 5G technology by developing web applications and
+                            enhancing software
+                            features with Java, ensuring compliance with federal laws and contributing to the
+                            advancement of
                             telecommunications infrastructure.</li>
-                        <li>Enhanced web interfaces for three microservices and developed one form from scratch using JSP, HTML5,
-                            CSS3, JavaScript, Ajax, jQuery, and React JS, significantly improving project functionality and user
+                        <li>Enhanced web interfaces for three microservices and developed one form from scratch using
+                            JSP, HTML5,
+                            CSS3, JavaScript, Ajax, jQuery, and React JS, significantly improving project functionality
+                            and user
                             interaction.</li>
-                        <li>Boosted operational efficiency by 20% through automating database operations, executing over 200 CRUD
+                        <li>Boosted operational efficiency by 20% through automating database operations, executing over
+                            200 CRUD
                             operations, and developing 20+ triggers and 10+ procedures, streamlining data processes.
-                            </li>
-                        <li> Launched 30+ Spring RESTful APIs, enhancing user experience by facilitating seamless POST, GET, PUT,
+                        </li>
+                        <li> Launched 30+ Spring RESTful APIs, enhancing user experience by facilitating seamless POST,
+                            GET, PUT,
                             and DELETE operations through collaborative development and stakeholder engagement.
-                            </li>
-                        <li>Increased code coverage from 30% to 50% by applying TDD principles and implementing JUnit and
+                        </li>
+                        <li>Increased code coverage from 30% to 50% by applying TDD principles and implementing JUnit
+                            and
                             MOCKITO tests, enhancing software reliability.</li>
-                        <li>Oversaw 12+ major successful deployments, ensuring security and reliability, through diligent UAT and
+                        <li>Oversaw 12+ major successful deployments, ensuring security and reliability, through
+                            diligent UAT and
                             production validations.</li>
-                        <li>Improved data interchange efficiency by 15% by optimizing JSON responses, resulting in a significant
+                        <li>Improved data interchange efficiency by 15% by optimizing JSON responses, resulting in a
+                            significant
                             reduction in data errors.</li>
-                        
-                        <li>Automated RDBMS processes with 50+ tables, using dynamic queries to improve data retrieval and system
+
+                        <li>Automated RDBMS processes with 50+ tables, using dynamic queries to improve data retrieval
+                            and system
                             adaptability.</li>
-                        <li>Contributed to backend development with Java enterprise platforms, adhering to Agile environments for
+                        <li>Contributed to backend development with Java enterprise platforms, adhering to Agile
+                            environments for
                             software development methodologies, design, and implementation.</li>
-                        <li>Provided operational support with cross-functional teams, focusing on root cause analysis for issue
+                        <li>Provided operational support with cross-functional teams, focusing on root cause analysis
+                            for issue
                             resolution, ensuring process functionality, efficiency, and maintainability.
-                            </li>
+                        </li>
                     </ul>
-                    <a href="#" class="button">Know More!</a>
                 </div>
 
             </div>
         </section>
 
-        <!--===== CONTACT =====-->
-        <section class="contact section" id="contact">
-            <h2 class="section-title">Contact</h2>
+        <!--===== PROJECTS =====-->
+        <section class="experience section " id="projects">
+            <h2 class="section-title">Projects</h2>
 
-            <div class="contact__container bd-grid">
-                <form action="" class="contact__form">
-                    <input type="text" placeholder="Name" class="contact__input">
-                    <input type="mail" placeholder="Email" class="contact__input">
-                    <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                    <input type="button" value="Submit" class="contact__button button">
-                </form>
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="oci2.webp" alt="">
+                </div>
+
+                <div>
+                    <h2 class="about__subtitle"> Oracle Cloud Infrastructure</h2>
+                    <p> <strong> Janruary 2024 — February 2024 </strong></p><br>
+                    <!-- <p class="about__text"> -->
+                    <ul>
+                        <li>Implemented a secure network configuration in Oracle Cloud by integrating 2 cloud gateways,
+                            optimizing governance processes, and ensuring a seamless flow of data between more than 5
+                            subnets and over 3 virtual machines.</li>
+                        <li>Enhanced security frameworks by configuring 15 user accounts and creating over 15 policies
+                            across 5 user groups, effectively safeguarding data in Oracle Cloud.
+                        </li>
+
+                    </ul>
+                    <br><br>
+                    <!-- </p> -->
+                </div>
+            </div>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="user.webp" alt="">
+                </div>
+
+                <div>
+                    <h2 class="about__subtitle">User Management </h2>
+                    <p> <strong> March 2024 </strong></p><br>
+                    <!-- <p class="about__text"> -->
+                    <ul>
+                        <li>Designed and implemented three optimized Java Spring Boot CRUD operations, enabling seamless
+                            Create, Read, Update, and Delete functionalities for database transactions.</li>
+                        <li>Streamlined database interaction and transaction handling, ensuring high concurrency and
+                            consistency across multiple requests.</li>
+                        <li> Improved response times and data integrity by integrating JPA (Java Persistence API) and
+                            Hibernate, optimizing SQL queries for faster execution.</li>
+                        <li>Developed an automated email notification system using SMTP (Simple Mail Transfer Protocol).
+                        </li>
+                        <li>Designed a customizable email template system, allowing dynamic content injection based on
+                            real-time user interactions and database updates.</li><br>
+                        <p><a href="https://github.com/yasvanthasai/USER-MGMT">Source Code - User Management </a> </p>
+                    </ul>
+                    <br><br>
+                    <!-- </p> -->
+                </div>
+            </div>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="report.webp" alt="">
+                </div>
+
+                <div>
+                    <h2 class="about__subtitle">Report Management</h2>
+                    <p> <strong> April 2024 </strong></p><br>
+                    <ul>
+                        <li>Designed and developed custom modules for data conversion to PDF and Excel, enabling
+                            seamless data export for users.</li>
+                        <li>Integrated Apache POI for Excel file generation, allowing structured tabular data
+                            representation, easy data manipulation, and improved readability.</li>
+                        <li>Utilized iTextPDF to create dynamically generated PDFs, supporting custom formatting and
+                            structured reports. </li>
+                        <li>Enhanced user accessibility and data sharing by providing one-click export functionality,
+                            reducing the need for manual report generation.</li><br>
+                        <p><a href="https://github.com/yasvanthasai/REPORTS-APP">Source Code - Report Management</a>
+                        </p>
+                    </ul>
+                </div>
+
             </div>
         </section>
+
+        <!--===== ACHIEVEMENTS =====-->
+        <section class="contact section" id="achievements">
+            <h2 class="section-title">Achievements</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="honor.webp" alt="">
+                </div>
+
+                <div>
+                    <!-- <p class="about__text"> -->
+                    <ul>
+                        <li> Elected Vice President of Programming, GPSA, awarded a $4,000 scholarship - August 2024
+                        </li>
+                        <li> Awarded the Monte Ahuja Business Scholarship for academic excellence ($6,000) - May 2024
+                        </li>
+                        <li> Received a $1,000 grant from CSU for research collaboration with the National Institute of
+                            Health (NIH) - February 2024</li>
+                        <li> Secured 1st place in Data Analytics Competition; received $1000 graduate scholarship -
+                            November 2023</li>
+                        <li> Achieved Star of the Month at Verizon, for outstanding code debugging and problem solving -
+                            February 2023 </li>
+                        <li> Two‑TimeOn‑the‑Spot Team Award, Verizon Management for excellence in successful deployment
+                            - November 2022
+                        </li>
+                        <li> Ranked in the top 2.5% among 100,000 in TCS CodeVita Hackathon, showcasing coding prowess -
+                            June 2021 </li>
+                    </ul>
+                    <br><br>
+                    <!-- </p> -->
+                </div>
+            </div>
+        </section>
+
+        <!--===== Recommendations =====-->
+        <section class="experience section " id="recommendations">
+            <h2 class="section-title">Recommendations</h2>
+            <div class="recommendations">
+
+                <div class="recommendation">
+                    <img src="naga.jpeg" alt="Profile Picture" class="profile-pic">
+                    <div class="text">
+                        <p class="name">Nagasrinivas Kavitapu</p><br>
+                        <p class="quote">"Yasvantha has been a consistent performer and has excellent coding skills as a
+                            Full Stack Java Developer. He delivered critical Regulatory features for a Telecom Project
+                            He is quiet and a good listener, has excellent communication skills and also Lead team of
+                            developers in accomplishing the Project. I recommend Yasvanth for any Development Project as
+                            a Best Candidate."</p>
+                    </div>
+                </div>
+
+                <div class="recommendation">
+                    <img src="nik.enc" alt="Profile Picture" class="profile-pic">
+                    <div class="text">
+                        <p class="name">Nikita Bodke</p><br>
+                        <p class="quote">"Working alongside Yasvantha Sai Atmuri has been a remarkable experience. His
+                            adeptness in Java and Oracle SQL, coupled with a proactive approach towards tackling new
+                            challenges, significantly contributed to our collaborative projects. Yasvantha's readiness
+                            to initiate and his helpful, approachable nature have not only fostered a positive work
+                            environment but also facilitated effective communication within our team. His skill set and
+                            attitude towards work exemplify the qualities of a valuable peer in the tech industry."</p>
+                    </div>
+                </div>
+
+
+
+                <div class="recommendation">
+                    <img src="https://via.placeholder.com/50" alt="Profile Picture" class="profile-pic">
+                    <div class="text">
+                        <p class="name">Hussain Ghouse</p><br>
+                        <p class="quote">"I had the pleasure of working alongside Yasvantha at TCS, where he served as a
+                            dedicated developer. Yasvantha consistently impressed team with his technical prowess and
+                            ability to tackle complex problems with ease. He possesses a strong work ethic and a keen
+                            attention to detail, ensuring that projects were completed to the highest standard and
+                            delivered on time. He also demonstrated excellent teamwork and communication skills, making
+                            him a valuable asset to any project or team. I highly recommend Yasvantha Sai and would
+                            welcome the opportunity to work with him again in the future."</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+        <!--===== CONTACT =====-->
+        <!-- <section class="contact section" id="contact">
+            <h2 class="section-title">Contact me!</h2>
+
+            <div class="contact__container bd-grid">
+                <p class="section__text">Dynamic software developer and database operations professional with 12+ major
+                    deployments and a strong track record of automating
+                    processes to drive efficiency. Skilled in developing software solutions, code optimization, version
+                    control, and cross-functional collaboration. Recognized for enhancing project functionality through
+                    the redesign of web interfaces using various technologies. Committed to full-stack
+                    software development.</p>
+                <section id="contact">
+                    <br><Br>
+                    <div class="contact-container">
+                        <div class="contact-item">
+                           <a href="mailto:yasvanthasaiatmuri@gmail.com"> <i class="bx bx-envelope"> </i></a>
+                        </div>
+                        <div class="contact-item">
+                           
+                            <a href="tel:+216-972-1450"> <i class="bx bx-phone"></i></a>
+                        </div>
+                        <div class="contact-item">
+                           
+                            <a href="https://www.linkedin.com/in/yasvantha-sai-atmuri/"
+                                target="https://www.linkedin.com/in/yasvantha-sai-atmuri/"> <i class="bx bxl-linkedin"></i></a>
+                        </div>
+                        <div class="contact-item">
+                           
+                            <a href="https://github.com/yasvanthasai" target="https://github.com/yasvanthasai"> <i class="bx bxl-github"></i></a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section> -->
     </main>
 
     <!--===== FOOTER =====-->
     <footer class="footer">
-        <p class="footer__title">AYS</p>
         <div class="footer__social">
-            <a href="#" class="footer__icon"><i class='bx bxl-facebook'></i></a>
-            <a href="#" class="footer__icon"><i class='bx bxl-instagram'></i></a>
-            <a href="#" class="footer__icon"><i class='bx bxl-twitter'></i></a>
+            <div class="contact-container">
+                <div class="contact-item">
+                   <a href="mailto:yasvanthasaiatmuri@gmail.com"> <i class="bx bx-envelope"> </i></a>
+                </div>
+                <div class="contact-item">
+                   
+                    <a href="tel:+216-972-1450"> <i class="bx bx-phone"></i></a>
+                </div>
+                <div class="contact-item">
+                   
+                    <a href="https://www.linkedin.com/in/yasvantha-sai-atmuri/"
+                        target="https://www.linkedin.com/in/yasvantha-sai-atmuri/"> <i class="bx bxl-linkedin"></i></a>
+                </div>
+                <div class="contact-item">
+                   
+                    <a href="https://github.com/yasvanthasai" target="https://github.com/yasvanthasai"> <i class="bx bxl-github"></i></a>
+                </div>
+            </div>
         </div>
         <p class="footer__copy">&#169; yasvantha-sai-atmuri. All rigths reserved</p>
     </footer>
@@ -282,5 +613,3 @@ software development.</p>
 </body>
 
 </html>
-
-
