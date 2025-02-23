@@ -802,4 +802,23 @@ body.dark-mode a {
   color: #bb86fc;
 }
 
+.resume-download-btn {
+  display: inline-block;         /* Wraps tightly around text */
+  background-color: #fa8231;     /* Orange background */
+  color: #fff;                   /* White text */
+  text-decoration: none;         /* No underline */
+  padding: 0.6rem 1rem;          /* Space around text */
+  border-radius: 6px;            /* Rounded corners */
+  margin: 0;                     /* Remove any default margin */
+  font-size: 1rem;               /* Adjust as needed */
+  transition: background-color 0.3s ease;
+  margin-top: 1rem;
+}
+
+.resume-download-btn:hover {
+  background-color: #f76903;     /* Slightly darker on hover */
+}
+
+
+
 
