@@ -211,16 +211,27 @@ img {
 
 .home__title {
   font-size: var(--big-font-size);
-  margin-bottom: var(--mb-5);
+  margin-bottom: var(--mb-3);
 }
 
 .home__title-color {
   color: var(--first-color);
 }
 
+/* .home__social {
+  display: flex;
+  flex-direction: column;
+} */
+
 .home__social {
   display: flex;
   flex-direction: column;
+}
+
+.home__summary {
+  font-weight: normal;   
+  margin-top: 1px; 
+  margin-bottom: 0;
 }
 
 .home__social-icon {
@@ -455,6 +466,14 @@ img {
 
 .footer__copy {
   font-size: var(--smaller-font-size);
+  text-align: center;  
+  padding: 15px 0; 
+  background-color: #f8f8f8;    
+  border-top: 1px solid #ddd;   
+  color: #555;              
+  font-family: 'Montserrat', sans-serif; 
+  letter-spacing: 0.5px;      
+  margin: 0;   
 }
 
 /* ===== MEDIA QUERIES=====*/
@@ -658,3 +677,129 @@ img {
     width: 450px;
   }
 }
+
+.achievements {
+  margin: 1rem 0;
+  padding: 0;
+  /* No default list-style so we can use our own bullets */
+  list-style: none;
+}
+
+.achievements li {
+  display: flex;               /* Keep left text + right date */
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0.75rem;
+  
+  position: relative;          /* Needed for the pseudo-element bullet */
+  padding-left: 1.2em;         /* Space for the bullet on the left */
+}
+
+.achievements li::before {
+  content: "•";                /* Simple bullet */
+  position: absolute;
+  left: 0;                     /* Position bullet at far left */
+  color: #000;                 /* Bullet color (adjust as needed) */
+  font-size: 1.2em;            /* Slightly larger bullet */
+  line-height: 1;              /* Ensures bullet is vertically centered */
+}
+
+.achievement-text {
+  /* Left text styles if needed */
+}
+
+.achievement-date {
+  /* Right date styles */
+  color: #666;
+  font-size: 0.95em;
+  white-space: nowrap;
+}
+
+
+/*for light and dark mode*/
+/* Container for the toggle switch */
+.theme-switch-wrapper {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  display: flex;
+  align-items: center;
+  z-index: 999;
+}
+
+/* The switch - the box around the slider */
+.theme-switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default checkbox */
+.theme-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+  border-radius: 34px;
+}
+
+/* The slider knob */
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+/* When the checkbox is checked */
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+/* Move the slider knob when checked */
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+/* Label styling */
+#theme-label {
+  margin-left: 10px;
+  font-size: 1rem;
+  color: #333;
+  user-select: none;
+}
+
+/* Dark mode styles for the entire page */
+body.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+/* Optionally, adjust specific elements as needed */
+header, footer, .content {
+  background-color: #1e1e1e;
+}
+
+/* Links in dark mode */
+body.dark-mode a {
+  color: #bb86fc;
+}
+
+
